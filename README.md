@@ -60,7 +60,13 @@ En kısa null check nasıl yapılır?
 Belirtilen dizenin null mi yoksa boş bir dize mi ("") olduğunu gösterir.--> public static bool IsNullOrEmpty (string value);
 
 
-Parial view nedir?
+Aşağıdaki örnek üç dizeyi inceler ve her bir dizenin bir değere sahip olup olmadığını, boş bir dize mi olduğunu veya nullolduğunu belirler.
+
+![null](https://user-images.githubusercontent.com/66273342/86617141-7fae2780-bfbf-11ea-9364-946cfe29f728.PNG)
+
+
+
+Partial view nedir?
 
 
 Bir işlemi birden fazla kez yapacaksak bir kalıp kullanırız. Örnğin oluşturacağımız bir resim galerisini web sitesinde birden fazla sayfada kullanacağımızı düşünelim. Aynı galeriyi her sayfa için tekrar tekrar oluşturmak gereksiz ve zaman kaybıdır. Tam da burada Partial View  imdadımıza yetişiyor. Partial View kendi başına hiçbir işlevi olmayan bir yapıdır. Bulunduğu sayfa içerisinde çalışır.Kısacası; tkrar etmemiz gereken nesneleri, html sayfalarını rahatlıktla bu şekilde kullanabiliriz.
