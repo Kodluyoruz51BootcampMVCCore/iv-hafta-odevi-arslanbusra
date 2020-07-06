@@ -66,3 +66,27 @@ Parial view nedir?
 Bir işlemi birden fazla kez yapacaksak bir kalıp kullanırız. Örnğin oluşturacağımız bir resim galerisini web sitesinde birden fazla sayfada kullanacağımızı düşünelim. Aynı galeriyi her sayfa için tekrar tekrar oluşturmak gereksiz ve zaman kaybıdır. Tam da burada Partial View  imdadımıza yetişiyor. Partial View kendi başına hiçbir işlevi olmayan bir yapıdır. Bulunduğu sayfa içerisinde çalışır.Kısacası; tkrar etmemiz gereken nesneleri, html sayfalarını rahatlıktla bu şekilde kullanabiliriz.
 
 
+**API’larda İstemci Doğrulama Yöntemleri (API Authentication Ways);**
+
+Doğrulama organizasyonların ağlarını güvenli bir şekilde sadece izin verilen kullanıcılar veya işlemler tarafından erişilebilir ve tüketilebilir olmasını sağlar.
+
+1. Bilgi Faktörü (Knowledge Factor):Bu faktörde kullanıcıya ait bilgilere erişirken genellikle bir kullanıcı adı veya email kullanılır ve bu şekilde kullanıcının bildiği şeye erişim sağlanır.
+
+2. Mülk Faktörü (Possession Factor):Örneğin güvenli bir anahtar taşıyan flash bellek, bir telefon veya farklı bir donanım ile sağlanan bilgilerdir.
+
+3. Varlık Faktörü (Inherence Factor):Basitçe ayırt edici bilginin vucudunuzda olduğu senaryodur.
+
+4. Konum Faktörü (Location Factor):Örneğin bir bankacılık sisteminde son yaptığınız işlem Manisa’da bir POS cihazı iken 10 dakika sonra kartınızın İstanbul’da kullanılması ile bankaların bu doğrulama yöntemi ile kredi/banka kartlarının kayıp/çalıntı gibi işlemlerini takip etmektedir.
+
+5. Zaman Faktörü (Time Factor):Erişilmek istenilen kaynağın erişilemez olduğu zamanlarda yapılan erişim isteklerinin kaydedildiği ve konum faktörüyle kombine edilerek kullanıcının doğrulandığı ya da tehdit olarak algılandığı bilgilerdir.
+
+6. Davranış Faktörü (Gesture Factor):Örneğin resim şifre denen kullanıcının ilgili resim üzerinde yaptığı jestler ve dokunuşların kaydedildiği ve bu şekilde doğrulandığı sistemler verilebilir.
+
+7. Tek Faktörlü Doğrulama:Doğrulama yöntemlerinden sadece bir tanesinin kullanılarak doğrulama işleminin gerçekleştirilmesidir.
+
+8. İki Faktörlü Doğrulama:İki doğrulama faktörünün birbirini tamamlayıcı olarak veya doğrulamanın çok mühim olduğu ortamlarda çaprazlama yapmak amaçlı kullanıldığı yöntemdir.
+
+9. Çok Faktörlü Doğrulama:En olağan dışı, paranoyakça ve yorucu olan yöntem ise Multi-Factor dediğimiz çok aşamalı yöntemlerle sistemlerin kullanıcılarını doğrulamasıdır.
+
+
+
