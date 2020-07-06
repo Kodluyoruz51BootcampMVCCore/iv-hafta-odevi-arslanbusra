@@ -50,8 +50,27 @@ Shanpshot nedir? nasıl değişir? neden alınır?
 
 Snapshot’ı kısa süreli çalışmalar öncesinde backup almak yerine snapshot’ı kullanabiliriz. Snapshot sayesinde sanal makinamızın anlık ekran görüntüsü alınır ve siz herhangi bir sebepten dolayı sanal makina üzerinde yaptığınız işlemleri geri almak istediğinizde almış olduğunuz snapshot’a revert diyerek eski haline geri dönüş yapabilirsiniz.Snapshot kısa süreli işlemler için kullanılması tavsiye ediliyor. Örneğin bir update yapacaksınız ve update 1 veya 2 hafta sürecek. Bu durumda snapshot almak çok doğru değil. Böyle bir operasyonda backup  veya clone alarak daha rahat birşekilde işlemlerinize devam edilebilir.
 
+Jquery Calender--> Datapicker --> DueAt'i takvim tipinde eklemek nasıl yapılır? Araştırınız. (DateTimeUffset tipinden atamalar oluşucak) -->https://stackoverflow.com/questions/38711170/datetimeoffset-in-fullcalendar-using-asp-net-mvc
 
-First- FirstOrDefault ve Single- SingleOrDefault nedir? Aralarındaki farkı araştırınız.--> https://medium.com/@ruveydakardelcetin/single-singleordefault-ve-first-firstordefault-fark%C4%B1-d7657eec8d02
+
+First- FirstOrDefault ve Single- SingleOrDefault nedir? Aralarındaki farkı araştırınız.
+
+
+LINQ sorgularında kullanılar Single, SingleOrDefault, First ve FirstOrDefault extension metodları bulunmaktadır.
+
+//int tipinde bir dizimiz olduğunu varsayalım.
+int[] oddNumbers = { 1, 3, 5, 7, 11}; 
+
+
+SingleOrDefault: Eğer dizi içinden sadece bir tane sayı seçmek istiyorsak ve seçim şartımız sağlanmıyorsa, bu durumda int tipinin varsayılan değeri olan 0(sıfır) döndürülsün istiyorsak SingleOrDefault seçimini kullanmalıyız. Eğer seçim sonucunda birden fazla değer dönerse InvalidOperationException fırlatılacaktır.
+
+Single: Eğer seçimimiz sonucunda sadece bir tane eleman geleceği kesin ise, bu durumda Single seçimini kullanabiliriz. Eğer şartımızı sağlayan hiçbir eleman dönmezse veya şartımızı sağlayan birden fazla eleman dönerse, bu iki durumda da istisnalar fırlatılacak ve hata ile karşılaşmış olacağız.
+
+FirstOrDefault: Bu seçimde de mantık SingleOrDefault ile aynıdır. Ancak bu seçimde istenen şartta ilk eleman seçilir. Örneğin dizinin ilk elemanı, dizinin 2’den büyük ilk elemanı gibi.
+
+First: Dönen sonuçlardan ilkini getirir yoksa hata verir.
+
+https://medium.com/@ruveydakardelcetin/single-singleordefault-ve-first-firstordefault-fark%C4%B1-d7657eec8d02
 
 
 
