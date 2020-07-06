@@ -90,3 +90,14 @@ Doğrulama organizasyonların ağlarını güvenli bir şekilde sadece izin veri
 
 
 
+**Razor Pages/MVC Projects karşılaştırmasını yapınız.**
+
+Razor View ve WebForms gibi dosyanın arkasında kodlar mevcut olmasına rağmen, MVC ise kontrolör, görünüm ve model için farklı dizinlerde ayrı dosyalara sahiptir.Aşağıdaki görselde görünüm olarak farkları mevcuttur.
+
+
+![mvc vs razor](https://user-images.githubusercontent.com/66273342/86614305-76bb5700-bfbb-11ea-9bf9-a469173cba4e.png)
+
+
+Bir HTTP POST için MVC'de, nesnemizi MVC eylemine iletiriz (örn. “ManagePage (int id, PageClass sayfası)”). Razor Page ile bunun yerine iki yönlü veri bağlama özelliğini kullanabiliriz.Razor Pages uygulamasının gerçek sayfalar olması ve tüm AJAX / REST API işlevlerinin MVC ile uygulanması fikri her zaman kullanışlıdır.MVC'nin süper esnek olması ise kullanılabilir olmasında etkendir, ancak bunu daha karmaşık hale getiren de budur. Razor Pages'ın en önemli özelliği ise sadeliğidir.
+
+
